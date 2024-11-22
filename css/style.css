@@ -1,0 +1,175 @@
+* {
+    /*margin: 0; */
+    color: grey;
+    /* font-size: 24px; */
+}
+
+body
+    {
+        background-image: url("/week01/project/florist/images/bi1.jpg");
+        background-size: cover ;
+        background-repeat: no-repeat;
+        /*justify-content:center ; */
+        border-style: solid;
+        border-width: 10px;
+        border-color: lightblue;
+        
+    }
+
+
+.navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+height: 75px;
+border-style: double;
+border-color: 5px  blue;
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+display: flex;
+/*flex-direction: row; */
+justify-content: center;
+align-items: center;
+}
+
+.mainimagerow {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+height: 75px;
+
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+
+/*flex-direction: row; */
+
+
+}
+
+.navbarbottom {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 450px;
+  column-gap: 50px;
+    margin-top: 10px;
+height: 60px;
+width:900px;
+
+    justify-content: space-around;
+flex-direction: row;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+#mainimage{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 850px;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+
+#mainimage>img {
+    width: 600px;
+    border-radius: 20%;
+}
+
+.flowers {
+    display:flex;
+    margin-top: 1px;
+    margin-right: auto;
+    margin-left: 10px;
+    height: 65px;
+    width: 480px;
+    justify-content: flex-start;
+}
+
+.timages{
+    display:flex;
+    height: 170px;
+    justify-content: space-around;
+    margin-left: 580px;
+    margin-top: 100px;
+}
+.pages {
+    margin-left: auto;
+
+}
+.pages2 {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#pic {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: magenta;
+    align-items: center;
+    
+}
+
+h1 span {
+
+    color: red;
+    text-align: left;
+}
+
+#header1 { 
+    display: flex;
+    font-size: 24px;
+    margin-left: 600px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+p { color: black;
+    font-family: arial;
+    margin-left: 850px;
+    font-size: 24px;
+}
+
+#lde {
+    color: yellow;
+}
+
+#parah1 {
+    font-size: 60px;
+    color: green;
+    margin-left: 60px;
+}
+
+.copy {
+    color: black;
+}
+
+
+
+#cat {
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+a:visited {
+    color: navy;
+}
