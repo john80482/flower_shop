@@ -4,17 +4,14 @@
     /* font-size: 24px; */
 }
 
-body
-    {
-        background-image: url(""./images/bi1.jpg)");
+body    {
+        background-image: url('./images/bi1.jpg');
         background-size: cover ;
         background-repeat: no-repeat;
-        /*justify-content:center ; */
         border-style: solid;
         border-width: 10px;
         border-color: lightblue;
-        
-    }
+        }
 
 
 .navbar {
