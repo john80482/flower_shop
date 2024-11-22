@@ -90,22 +90,26 @@ body    {
                 border-radius: 20%;
                 }
 
-
 h1  {
+    display:flex;
+    margin-left: 990px;
     font-family: 'Times New Roman', Times, serif;
     color: magenta;
-    align-items: center;
+    font-size: 50px;
     }
 
-h1 span {
-        color: red;
-        text-align: left;
-        }
+h2  {
+    display:flex;
+    margin-left: 870px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 50px;
+    }
 
 p   {
     color: black;
     font-family: arial;
-    margin-left: 800px;
+    margin-left: 855px;
     font-size: 24px;
     }
 
@@ -117,4 +121,3 @@ a:hover {
 a:visited   {
             color: darkblue;
             }
-            
