@@ -1,18 +1,12 @@
-* {
-    /*margin: 0; */
-    color: grey;
-    /* font-size: 24px; */
-}
 
 body    {
-        background-image: url('./images/bi1.jpg');
+        background-color: brown;
         background-size: cover ;
         background-repeat: no-repeat;
         border-style: solid;
         border-width: 10px;
         border-color: lightblue;
         }
-
 
 .navbar {
         margin-left: 50px;
@@ -27,6 +21,50 @@ body    {
         justify-content: center;
         align-items: center;
         }
+
+.flowers    {
+            display:flex;
+            margin-top: 1px;
+            margin-right: auto;
+            margin-left: 10px;
+            height: 65px;
+            width: 480px;
+            justify-content: flex-start;
+            }
+
+.pages  {
+        margin-left: auto;
+        }
+
+#mainimage  {
+            display:flex;
+            margin-top: 20px;
+            margin-left: 850px;
+            height: 400px;
+            max-width: 100%;
+            border-radius: 50%;
+            }
+
+#header1    { 
+            display: flex;
+            font-size: 24px;
+            margin-left: 700px;
+            justify-content: center;
+            }
+
+.navbarbottom   {
+                display: flex;
+                position: fixed;
+                bottom: 10px;
+                margin-left: 35%;
+                margin-top: 10px;
+                height: 60px;
+                justify-content: center;
+                word-spacing: 10px;
+                flex-direction: row;
+                font-size: 20px;
+                font-family: 'Courier New', Courier, monospace;
+                }
 
 .mainimagerow   {
                 margin-left: 35%;
@@ -47,84 +85,11 @@ body    {
             margin-top: 100px;
             }
 
-p1  {
-    margin-left: 700px;
-    margin-right: auto;
-    margin-top: 110px;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    
-    }
-
-    p2  {
-        margin-left: 1010px;
-        margin-right: auto;
-        margin-top: 10px;
-        font-size: 40px;
-        font-family: 'Courier New', Courier, monospace;
-        }
-
-.navbarbottom   {
-                display: flex;
-                position: fixed;
-                bottom: 10px;
-                margin-top: 10px;
-                height: 60px;
-                width:100%;
-                justify-content: space-around;
-                flex-direction: row;
-                font-size: 20px;
-                font-family: 'Courier New', Courier, monospace;
+#mainimage>img  {
+                width: 600px;
+                border-radius: 20%;
                 }
 
-#mainimage{
-    display:flex;
-    margin-top: 20px;
-    margin-left: 850px;
-    height: 400px;
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-.caption {
-        display:block;
-}
-
-
-#mainimage>img {
-    width: 600px;
-    border-radius: 20%;
-}
-
-.flowers {
-    display:flex;
-    margin-top: 1px;
-    margin-right: auto;
-    margin-left: 10px;
-    height: 65px;
-    width: 480px;
-    justify-content: flex-start;
-}
-
-
-
-.pages {
-    margin-left: auto;
-
-}
-.pages2 {
-    
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-#pic {
-    display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-}
 
 h1  {
     font-family: 'Times New Roman', Times, serif;
@@ -137,17 +102,6 @@ h1 span {
         text-align: left;
         }
 
-#header1{ 
-            display: flex;
-            font-size: 24px;
-            margin-left: 700px;
-            justify-content: center;
-        }
-
-
-
-
-
 p   {
     color: black;
     font-family: arial;
@@ -155,30 +109,12 @@ p   {
     font-size: 24px;
     }
 
-#lde {
-    color: yellow;
-}
-
-#parah1 {
-    font-size: 60px;
-    color: green;
-    margin-left: 60px;
-}
-
-.copy {
-    color: black;
-}
-
-
-
-#cat {
-    width: 50%;
-}
-
 a:hover {
-    text-decoration: underline;
-    color: white;
-}
-a:visited {
-    color: navy;
-}
+        text-decoration: underline;
+        color: white;
+        }
+
+a:visited   {
+            color: darkblue;
+            }
+            
